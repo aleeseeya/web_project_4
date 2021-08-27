@@ -3,8 +3,15 @@
   height: 24px;
   margin: 0;
   padding: 0;
+  cursor: pointer;
   border: none;
   background: none;
+  transition: opacity 0.1s ease-in-out;
+  opacity: 1;
+}
+
+.profile__edit-button:hover {
+  opacity: 0.6;
 }
 
 @media (min-width: 320px) and (max-width: 1279px) {

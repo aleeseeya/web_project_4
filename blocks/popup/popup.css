@@ -1,7 +1,12 @@
 .popup {
   background-color: #fff;
-  width: 430px;
-  height: 330px;
-  margin: 0 auto;
+  max-height: 322px;
+  margin: 15% auto;
+  max-width: 282px;
+  border-radius: 10px;
+  z-index: 1;
   position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
 }
