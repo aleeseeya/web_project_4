@@ -22,7 +22,7 @@
 
       <div class="profile__info">
         <h1 class="profile__name">Nancy Drew
-          <button class="profile__edit-button">
+          <button class="button profile__edit-button">
             <img src="./images/edit_button.png" 
             alt="Image of a pencil"
             class="profile__edit-button">
@@ -32,7 +32,7 @@
         <p class="profile__title">Detective</p>
       </div>
 
-      <button class="profile__add-button">
+      <button class="button profile__add-button">
         <img src="./images/add_button.png" 
         alt="Button with a plus sign">
       </button>
@@ -129,22 +129,41 @@
 
     
     <section class="popup">
-      <div class="popup__background">
-        <div class="popup__content">
-          <h2 class="popup__header">Edit profile</h2>
-          <p class="popup__name">Nancy Drew</p>
-          <hr class="popup__line"> 
-          <p class="popup__title">Detective</p>
+  
+        <img 
+        src="./images/popup_close-icon.png" 
+        alt="Image of an X" 
+        class="popup__close-icon">
+      
+       
+       <div class="popup__content">
+
+        <h2 class="popup__header">Edit profile</h2>
+
+        <form class="form">
+
+            <input type="text" 
+            id="popup-name"
+            name="popup-name"
+            placeholder="Name"
+            class="form__input">
+
           <hr class="popup__line"> 
 
-          <button class="popup__save">Save</button>
-        </div>
-        
-      </div>
-      
+            <input type="text"
+            name="popup-title" 
+            id="popup-title"
+            placeholder="About Me"
+            class="form__input">
+
+          <hr class="popup__line"> 
+        </form>
+        <button class="popup__save">Save</button>
+      </div>     
     </section>
-   
   </main>
+
+
   <footer class="footer">
     &copy; 2021 Around The U.S.
   </footer>
