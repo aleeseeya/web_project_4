@@ -1,0 +1,9 @@
+.photo-grid__like-icon {
+  width: 21px;
+  height: 19px;
+  opacity: 1;
+}
+
+.photo-grid__like-icon:hover {
+  opacity: 0.5;
+}

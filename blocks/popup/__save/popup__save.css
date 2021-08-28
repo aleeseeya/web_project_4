@@ -11,6 +11,11 @@
   background-color: #000;
   overflow: hidden;
   font-size: 14px;
+  opacity: 1;
+}
+
+.popup__save:hover {
+  opacity: 0.6;
 }
 
 @media (min-width: 320px) and (max-width: 1279px) {

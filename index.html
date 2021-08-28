@@ -14,6 +14,43 @@
   </header>
 
   <main>
+
+    <section class="popup">
+  
+     <button class="button">
+      <img 
+        src="./images/popup_close-icon.png" 
+        alt="Image of an X" 
+        class="popup__close-button">
+    </button>
+    
+     
+     <div class="popup__content">
+
+      <h2 class="popup__header">Edit profile</h2>
+
+      <form class="form">
+
+          <input type="text" 
+          id="popup-name"
+          name="popup-name"
+          placeholder="Name"
+          class="form__input">
+
+        <hr class="popup__line"> 
+
+          <input type="text"
+          name="popup-title" 
+          id="popup-title"
+          placeholder="About Me"
+          class="form__input">
+
+        <hr class="popup__line"> 
+      </form>
+      <button class="popup__save">Save</button>
+    </div>     
+  </section>
+
     <section class="profile">
       <img 
       src="./images/traveler_avatar.jpg" 
@@ -34,7 +71,8 @@
 
       <button class="button profile__add-button">
         <img src="./images/add_button.png" 
-        alt="Button with a plus sign">
+        alt="Button with a plus sign"
+        class="profile__add-button">
       </button>
       
     </section>
@@ -50,7 +88,7 @@
 
         <img src="./images/like-icon.png"
         alt="Image of a heart"
-        class="photo-grid__like-icon">
+        class="button photo-grid__like-button">
         </div>
       
       </div>
@@ -65,7 +103,7 @@
 
           <img src="./images/like-icon.png"
           alt="Image of a heart"
-          class="photo-grid__like-icon">
+          class="button photo-grid__like-button">
         </div>
       </div>
 
@@ -79,7 +117,7 @@
 
           <img src="./images/like-icon.png"
         alt="Image of a heart"
-        class="photo-grid__like-icon">
+        class="button photo-grid__like-button">
 
         </div>
       </div>
@@ -94,7 +132,7 @@
 
           <img src="./images/like-icon.png"
           alt="Image of a heart"
-          class="photo-grid__like-icon">
+          class="button photo-grid__like-button">
         </div> 
       </div>
 
@@ -108,7 +146,7 @@
           
           <img src="./images/like-icon.png"
           alt="Image of a heart"
-          class="photo-grid__like-icon">
+          class="button photo-grid__like-button">
         </div>
     
       </div>
@@ -122,44 +160,9 @@
           <h2 class="photo-grid__header">Lincoln Memorial</h2>
           <img src="./images/like-icon.png"
           alt="Image of a heart"
-          class="photo-grid__like-icon">
+          class="button photo-grid__like-button">
         </div>
       </div>
-    </section>
-
-    
-    <section class="popup">
-  
-        <img 
-        src="./images/popup_close-icon.png" 
-        alt="Image of an X" 
-        class="popup__close-icon">
-      
-       
-       <div class="popup__content">
-
-        <h2 class="popup__header">Edit profile</h2>
-
-        <form class="form">
-
-            <input type="text" 
-            id="popup-name"
-            name="popup-name"
-            placeholder="Name"
-            class="form__input">
-
-          <hr class="popup__line"> 
-
-            <input type="text"
-            name="popup-title" 
-            id="popup-title"
-            placeholder="About Me"
-            class="form__input">
-
-          <hr class="popup__line"> 
-        </form>
-        <button class="popup__save">Save</button>
-      </div>     
     </section>
   </main>
 
