@@ -2,15 +2,20 @@
 
 ### Overview
 
-* Figma
-* Images
+- Description
+- Technologies & Techniques
+- GitHub Pages
 
-**Figma**
+**Description**
 
-* [Link to the project in Figma](https://www.figma.com/file/SurN1jaeEQIhuZEDMhmWWf/Sprint-4-Around-The-U.S.-desktop-mobile?node-id=0%3A1)
+This project showcases a profile with interactive posts highlighting different locations around the U.S. The profile info section including the individual's name and title can be edited. The heart icons on the photo cards can be toggled active.
 
-**Images**
+**Technologies & Techniques**
 
-The way you'll do this at work is by exporting images directly from Figma — we recommend doing that to practice more. Don't forget to optimize them [here](https://tinypng.com/), so your project loads faster. 
+HTML, CSS, and JavaScript are required for this project.
 
-Have fun with JavaScript!
+**GitHub Pages**
+
+You can find the GitHub Pages link for this project [here](https://aleeseeya.github.io/web_project_3/index.html).
+
+Thanks for taking a look!

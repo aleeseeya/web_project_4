@@ -3,12 +3,13 @@
   height: 50px;
   cursor: pointer;
   padding: 0;
-  margin: 46px auto 30px auto;
+  margin: 36px auto 30px auto;
   border: none;
   background: none;
   transition: opacity 0.1s ease-in-out;
   opacity: 1;
   border-radius: 2px;
+  align-items: center;
 }
 
 .profile__add-button:hover {
@@ -18,7 +19,6 @@
 @media (min-width: 320px) and (max-width: 1279px) {
   .profile__add-button {
     max-width: 282px;
-    margin: 0 auto 0 auto;
     width: 100%;
   }
 }
