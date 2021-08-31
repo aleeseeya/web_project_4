@@ -1,179 +1,204 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Around the U.S.</title>
-  <link rel="stylesheet" href="./pages/index.css">
-</head>
-<body class="page">
-  <header class="header"> 
-    <img src="images/Logo.svg" alt="Logo" class="logo"/>
-    <hr class="header__line">
-  </header>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Around the U.S.</title>
+    <link rel="stylesheet" href="./pages/index.css" />
+  </head>
+  <body class="page">
+    <header class="header">
+      <img src="images/Logo.svg" alt="Logo" class="logo" />
+    </header>
 
-  <main>
+    <main>
+      <section class="popup">
+        <button
+          class="button popup__close-button"
+          type="submit"
+          aria-label="close popup"
+        ></button>
 
-    <section class="popup">
-  
-     <button class="button">
-      <img 
-        src="./images/popup_close-icon.png" 
-        alt="Image of an X" 
-        class="popup__close-button">
-    </button>
-    
-     
-     <div class="popup__content">
+        <div class="popup__content">
+          <h2 class="popup__header">Edit profile</h2>
 
-      <h2 class="popup__header">Edit profile</h2>
+          <form class="form" name="popup">
+            <input
+              type="text"
+              id="popup-name"
+              name="popup-name"
+              placeholder="Name"
+              class="form__input"
+            />
 
-      <form class="form">
+            <input
+              type="text"
+              name="popup-title"
+              id="popup-title"
+              placeholder="About Me"
+              class="form__input"
+            />
 
-          <input type="text" 
-          id="popup-name"
-          name="popup-name"
-          placeholder="Name"
-          class="form__input">
-
-        <hr class="popup__line"> 
-
-          <input type="text"
-          name="popup-title" 
-          id="popup-title"
-          placeholder="About Me"
-          class="form__input">
-
-        <hr class="popup__line"> 
-        <button type="submit" class="popup__save">Save</button>
-      </form>
-      
-    </div>     
-  </section>
-
-    <section class="profile">
-      <img 
-      src="./images/traveler_avatar.jpg" 
-      alt="Image of a woman in front of the Eiffel Tower" 
-      class="profile__avatar" />
-
-      <div class="profile__info">
-        <div class="profile__header">
-          <h1 class="profile__name">Nancy Drew</h1>
-
-          <button class="button profile__edit-button">
-            <img src="./images/edit_button.png" 
-            alt="Image of a pencil"
-            class="profile__edit-button">
-          </button>
+            <button
+              type="submit"
+              class="button popup__save"
+              aria-label="save form"
+            >
+              Save
+            </button>
+          </form>
         </div>
-       
-        <p class="profile__title">Detective</p>
-      </div>
+      </section>
 
-      <button class="button profile__add-button">
-        <img src="./images/add_button.png" 
-        alt="Button with a plus sign"
-        class="profile__add-button">
-      </button>
-      
-    </section>
+      <section class="profile">
+        <img
+          src="./images/traveler_avatar.jpg"
+          alt="Image of a woman in front of the Eiffel Tower"
+          class="profile__avatar"
+        />
 
-    <section class="photo-grid">
-      <div class="photo-grid__place">
-        <img src="./images/statueofliberty_photo-grid.jpg"
-        alt="Image of the Statue of Liberty"
-        class="photo-grid__image">
+        <div class="profile__info">
+          <div class="profile__header">
+            <h1 class="profile__name">Nancy Drew</h1>
 
-        <div class="photo-grid__content">
-        <h2 class="photo-grid__header">Statue of Liberty</h2>
+            <button
+              type="submit"
+              class="button profile__edit-button"
+              aria-label="Edit Button"
+            ></button>
+          </div>
 
-        <img src="./images/like-icon.png"
-        alt="Image of a heart"
-        class="button photo-grid__like-button">
+          <p class="profile__title">Detective</p>
         </div>
-      
-      </div>
 
-      <div class="photo-grid__place">
-        <img src="./images/neworleans.jpg"
-        alt="Image of New Orleans"
-        class="photo-grid__image">
+        <button
+          class="button profile__add-button"
+          type="submit"
+          aria-label="add post"
+        ></button>
+      </section>
 
-        <div class="photo-grid__content">
-          <h2 class="photo-grid__header">Shotgun House</h2>
+      <section class="photo-grid">
+        <div class="photo-grid__place">
+          <img
+            src="./images/statueofliberty_photo-grid.jpg"
+            alt="Image of the Statue of Liberty"
+            class="photo-grid__image"
+          />
 
-          <img src="./images/like-icon.png"
-          alt="Image of a heart"
-          class="button photo-grid__like-button">
+          <div class="photo-grid__content">
+            <h2 class="photo-grid__header">Statue of Liberty</h2>
+
+            <button
+              class="button photo-grid__like-icon"
+              type="submit"
+              aria-label="like photo"
+              alt="Image of a heart"
+            ></button>
+          </div>
         </div>
-      </div>
 
-      <div class="photo-grid__place">
-        <img src="./images/mountrainier.jpg"
-        alt="Image of Mount Rainier"
-        class="photo-grid__image">
+        <div class="photo-grid__place">
+          <img
+            src="./images/neworleans.jpg"
+            alt="Image of New Orleans"
+            class="photo-grid__image"
+          />
 
-        <div class="photo-grid__content">
-          <h2 class="photo-grid__header">Mount Rainier</h2>
+          <div class="photo-grid__content">
+            <h2 class="photo-grid__header">Shotgun House</h2>
 
-          <img src="./images/like-icon.png"
-        alt="Image of a heart"
-        class="button photo-grid__like-button">
-
+            <button
+              class="button photo-grid__like-icon"
+              type="submit"
+              aria-label="like photo"
+              alt="Image of a heart"
+            ></button>
+          </div>
         </div>
-      </div>
 
-      <div class="photo-grid__place">
-        <img src="./images/chicagobean.jpg"
-        alt="Image of Chicago"
-        class="photo-grid__image">
+        <div class="photo-grid__place">
+          <img
+            src="./images/mountrainier.jpg"
+            alt="Image of Mount Rainier"
+            class="photo-grid__image"
+          />
 
-        <div class="photo-grid__content">
-          <h2 class="photo-grid__header">The Bean</h2>
+          <div class="photo-grid__content">
+            <h2 class="photo-grid__header">Mount Rainier</h2>
 
-          <img src="./images/like-icon.png"
-          alt="Image of a heart"
-          class="button photo-grid__like-button">
-        </div> 
-      </div>
-
-      <div class="photo-grid__place">
-        <img src="./images/golden-gate-bridge.jpg"
-      alt="Image of the Golden Gate Bridge"
-      class="photo-grid__image">
-
-        <div class="photo-grid__content">
-          <h2 class="photo-grid__header">Golden Gate Bridge</h2>
-          
-          <img src="./images/like-icon.png"
-          alt="Image of a heart"
-          class="button photo-grid__like-button">
+            <button
+              class="button photo-grid__like-icon"
+              type="submit"
+              aria-label="like photo"
+              alt="Image of a heart"
+            ></button>
+          </div>
         </div>
-    
-      </div>
 
-      <div class="photo-grid__place">
-        <img src="./images/lincolnmemorial.jpg"
-        alt="Image of the Lincoln Memorial"
-        class="photo-grid__image">
+        <div class="photo-grid__place">
+          <img
+            src="./images/chicagobean.jpg"
+            alt="Image of Chicago"
+            class="photo-grid__image"
+          />
 
-        <div class="photo-grid__content">
-          <h2 class="photo-grid__header">Lincoln Memorial</h2>
-          <img src="./images/like-icon.png"
-          alt="Image of a heart"
-          class="button photo-grid__like-button">
+          <div class="photo-grid__content">
+            <h2 class="photo-grid__header">The Bean</h2>
+
+            <button
+              class="button photo-grid__like-icon"
+              type="submit"
+              aria-label="like photo"
+              alt="Image of a heart"
+            ></button>
+          </div>
         </div>
-      </div>
-    </section>
-  </main>
 
+        <div class="photo-grid__place">
+          <img
+            src="./images/golden-gate-bridge.jpg"
+            alt="Image of the Golden Gate Bridge"
+            class="photo-grid__image"
+          />
 
-  <footer class="footer">
-    &copy; 2021 Around The U.S.
-  </footer>
+          <div class="photo-grid__content">
+            <h2 class="photo-grid__header">Golden Gate</h2>
 
-<script src="./script.js"></script>
-</body>
+            <button
+              class="button photo-grid__like-icon"
+              type="submit"
+              aria-label="like photo"
+              alt="Image of a heart"
+            ></button>
+          </div>
+        </div>
+
+        <div class="photo-grid__place">
+          <img
+            src="./images/lincolnmemorial.jpg"
+            alt="Image of the Lincoln Memorial"
+            class="photo-grid__image"
+          />
+
+          <div class="photo-grid__content">
+            <h2 class="photo-grid__header">Lincoln Memorial</h2>
+            <button
+              class="button photo-grid__like-icon"
+              type="submit"
+              aria-label="like photo"
+              alt="Image of a heart"
+            ></button>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>&copy; 2021 Around The U.S.</p>
+    </footer>
+
+    <script src="./script.js"></script>
+  </body>
 </html>

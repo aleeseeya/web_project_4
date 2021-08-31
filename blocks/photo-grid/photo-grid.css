@@ -6,7 +6,6 @@
   grid-template-columns: repeat(3, 282px);
   grid-template-rows: repeat(2, 361px);
   grid-gap: 20px 17px;
-  opacity: 0.8;
 }
 
 @media (min-width: 320px) and (max-width: 1279px) {
@@ -15,5 +14,6 @@
     flex-direction: column;
     flex-wrap: wrap;
     max-width: 282px;
+    margin: 36px auto 50px auto;
   }
 }

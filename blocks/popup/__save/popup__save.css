@@ -1,26 +1,20 @@
 .popup__save {
   height: 46px;
-  cursor: pointer;
-  padding: 0;
-  margin: 30px 22px;
-  border: none;
-  border-radius: 2px;
-  background: none;
+  margin: 30px 36px;
   transition: opacity 0.1s ease-in-out;
   color: #fff;
   background-color: #000;
-  overflow: hidden;
-  font-size: 14px;
-  opacity: 1;
+  justify-content: center;
+  align-items: center;
 }
 
 .popup__save:hover {
-  opacity: 0.6;
+  opacity: 0.8;
 }
 
 @media (min-width: 320px) and (max-width: 1279px) {
   .popup__save {
     max-width: 238px;
-    margin: 30px 5%;
+    margin: 46px 22px 30px 22px;
   }
 }

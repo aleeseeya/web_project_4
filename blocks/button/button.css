@@ -1,12 +1,13 @@
 .button {
+  display: flex;
   border: none;
   border-radius: 2px;
   border-style: none;
   cursor: pointer;
   margin: 0;
   padding: 0;
-  float: right;
-  display: flex;
+  background-color: transparent;
+  opacity: 1;
 }
 
 .button:hover {

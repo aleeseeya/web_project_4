@@ -1,6 +1,7 @@
 .photo-grid__content {
   display: flex;
-  margin: 0 auto;
-  justify-content: space-around;
-  align-items: center;
+  align-items: baseline;
+  justify-content: space-between;
+  margin: 25px 15px 31px 21px;
+  max-width: 246px;
 }

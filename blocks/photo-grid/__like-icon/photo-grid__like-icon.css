@@ -2,6 +2,7 @@
   width: 21px;
   height: 19px;
   opacity: 1;
+  background-image: url("../../../images/like-icon.png");
 }
 
 .photo-grid__like-icon:hover {

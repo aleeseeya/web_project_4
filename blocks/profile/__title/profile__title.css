@@ -4,6 +4,8 @@
   line-height: 1.22;
   margin: 0;
   padding: 0;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 @media (min-width: 320px) and (max-width: 1279px) {

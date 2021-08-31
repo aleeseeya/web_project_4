@@ -6,9 +6,10 @@
   width: 100%;
 }
 
-@media (min-width: 320px) and (max-width: 780px) {
+@media (min-width: 320px) and (max-width: 1279px) {
   .profile__info {
     margin-bottom: 36px;
     max-width: 282px;
+    align-items: center;
   }
 }
