@@ -1,7 +1,5 @@
 .profile__header {
-  max-width: 415px;
   display: flex;
-  justify-content: space-between;
   align-items: baseline;
 }
 

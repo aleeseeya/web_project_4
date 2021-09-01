@@ -3,17 +3,17 @@
   height: 56px;
   background-image: url("../../../images/popup_close-icon.png");
   background-position: center;
-  left: 66.15%;
-  right: 30.73%;
-  top: 175px;
+  top: 380px;
+  left: 63%;
   position: absolute;
+  margin-bottom: 18px;
 }
 
 @media (min-width: 320px) and (max-width: 1279px) {
   .popup__close-button {
     width: 36px;
     height: 36px;
-    left: 82.69%;
-    right: 9.18%;
+    left: 82%;
+    top: 200px;
   }
 }
