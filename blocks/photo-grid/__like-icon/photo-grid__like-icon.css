@@ -1,5 +1,6 @@
 .photo-grid__like-icon {
-  width: 21px;
+  max-width: 21px;
+  width: 100%;
   height: 19px;
   opacity: 1;
   background-image: url("../../../images/like-icon.png");

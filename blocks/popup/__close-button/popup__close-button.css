@@ -3,8 +3,8 @@
   height: 56px;
   background-image: url("../../../images/popup_close-icon.png");
   background-position: center;
-  top: 380px;
-  left: 63%;
+  top: -50px;
+  right: -50px;
   position: absolute;
   margin-bottom: 18px;
 }
@@ -13,7 +13,7 @@
   .popup__close-button {
     width: 36px;
     height: 36px;
-    left: 82%;
-    top: 200px;
+    right: 0;
+    top: -65px;
   }
 }
