@@ -1,11 +1,15 @@
 .profile__header {
   display: flex;
-  align-items: baseline;
+  align-items: center;
+  margin: 0 0 16px 0;
+  padding: 0;
+  width: 100%;
+  gap: 10px;
 }
 
 @media (min-width: 320px) and (max-width: 1279px) {
   .profile__header {
-    justify-content: space-evenly;
-    max-width: 224px;
+    justify-content: center;
+    gap: 18px;
   }
 }

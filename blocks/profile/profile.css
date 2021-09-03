@@ -3,7 +3,6 @@
   margin: 0 auto;
   max-width: 880px;
   display: flex;
-  justify-content: space-between;
   align-items: center;
 }
 
@@ -11,6 +10,5 @@
   .profile {
     max-width: 282px;
     flex-direction: column;
-    flex-wrap: wrap;
   }
 }
