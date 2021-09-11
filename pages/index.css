@@ -32,15 +32,20 @@
 @import url(../blocks/photo-grid/__content/photo-grid__content.css);
 @import url(../blocks/photo-grid/__header/photo-grid__header.css);
 @import url(../blocks/photo-grid/__like-icon/photo-grid__like-icon.css);
+@import url(../blocks/photo-grid/__like-icon/_active/photo-grid__like-icon_active.css);
+
+/* Cards */
+@import url(../blocks/cards/cards.css);
+@import url(../blocks/cards/__image-link/cards__image-link.css);
+@import url(../blocks/cards/__card-caption/cards__card-caption.css);
 
 /* Popup */
 @import url(../blocks/popup/popup.css);
 @import url(../blocks/popup/_opened/popup_opened.css);
+@import url(../blocks/popup/__close-btn/popup__close-btn.css);
 @import url(../blocks/popup/__content/popup__content.css);
-@import url(../blocks/popup/__close-button/popup__close-button.css);
 @import url(../blocks/popup/__header/popup__header.css);
-@import url(../blocks/popup/_opened/popup_opened.css);
-@import url(../blocks/popup/__save/popup__save.css);
+@import url(../blocks/popup/__submit-btn/popup__submit-btn.css);
 
 /* Form */
 @import url(../blocks/form/form.css);
@@ -48,4 +53,4 @@
 
 /* Footer */
 @import url(../blocks/footer/footer.css);
-@import url(../blocks/footer/__content/footer__content.css);
+@import url(../blocks/footer/__content/footer__content.css); ;

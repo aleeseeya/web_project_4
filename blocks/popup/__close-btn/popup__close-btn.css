@@ -1,4 +1,4 @@
-.popup__close-button {
+.popup__close-btn {
   width: 56px;
   height: 56px;
   background-image: url("../../../images/popup_close-icon.png");
@@ -10,7 +10,7 @@
 }
 
 @media (min-width: 320px) and (max-width: 1279px) {
-  .popup__close-button {
+  .popup__close-btn {
     width: 26px;
     height: 26px;
     right: 0;

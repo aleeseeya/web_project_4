@@ -13,44 +13,87 @@
     </header>
 
     <main>
-      <section class="popup">
-        <div class="popup__content">
+      <!-- Edit Form Popup -->
+      <section class="popup" id="edit-popup">
+        <div class="popup__content">    
           <button
-            class="button popup__close-button"
-            type="button"
-            aria-label="close popup"
-          ></button>
-
+          class="button popup__close-btn"
+          type="button"
+          aria-label="close popup"
+          id="close-edit">
+        </button>
           <h2 class="popup__header">Edit profile</h2>
 
-          <form class="form" name="popup">
+        <form class="form" name="edit-form">
+          <input
+            type="text"
+            id="edit-popup-name"
+            name="edit-popup-name"
+            placeholder="Name"
+            class="form__input"
+          />
+
+          <input
+            type="text"
+            name="edit-popup-title"
+            id="edit-popup-title"
+            placeholder="About Me"
+            class="form__input"
+          />
+
+          <button
+            type="submit"
+            class="button popup__submit-btn"
+            aria-label="save form"
+          >
+            Save
+          </button> 
+        </form>
+        </div>   
+      </section>      
+
+      <!-- Add Card Popup -->
+
+      <section class="popup" id="add-popup">
+
+        <div class="popup__content">
+          <button
+            class="button popup__close-btn"
+            type="button"
+            aria-label="close popup"
+            id="close-add">
+          </button>
+
+          <h2 class="popup__header">New place</h2>
+
+          <form class="form" name="add-card-form">
             <input
               type="text"
-              id="popup-name"
-              name="popup-name"
-              placeholder="Name"
+              id="new-card-title"
+              name="new-card-title"
+              placeholder="Title"
               class="form__input"
             />
 
             <input
-              type="text"
-              name="popup-title"
-              id="popup-title"
-              placeholder="About Me"
+              type="url"
+              name="new-card-link"
+              id="new-card-link"
+              placeholder="Image Link"
               class="form__input"
             />
 
             <button
               type="submit"
-              class="button popup__save"
+              class="button popup__submit-btn"
               aria-label="save form"
             >
-              Save
+              Create
             </button>
           </form>
         </div>
-      </section>
-
+    </section>
+      
       <section class="profile">
         <img
           src="./images/traveler_avatar.jpg"
@@ -78,6 +121,12 @@
           aria-label="add post"
         ></button>
       </section>
+
+        <div class="card">
+          <img class="card__image-link">
+          <h3 class="card__caption"></h3>
+        </div>
+      </section> 
 
       <section class="photo-grid">
         <div class="photo-grid__place">
