@@ -15,54 +15,53 @@
     <main>
       <!-- Edit Form Popup -->
       <section class="popup" id="edit-popup">
-        <div class="popup__content">    
-          <button
-          class="button popup__close-btn"
-          type="button"
-          aria-label="close popup"
-          id="close-edit">
-        </button>
-          <h2 class="popup__header">Edit profile</h2>
-
-        <form class="form" name="edit-form">
-          <input
-            type="text"
-            id="edit-popup-name"
-            name="edit-popup-name"
-            placeholder="Name"
-            class="form__input"
-          />
-
-          <input
-            type="text"
-            name="edit-popup-title"
-            id="edit-popup-title"
-            placeholder="About Me"
-            class="form__input"
-          />
-
-          <button
-            type="submit"
-            class="button popup__submit-btn"
-            aria-label="save form"
-          >
-            Save
-          </button> 
-        </form>
-        </div>   
-      </section>      
-
-      <!-- Add Card Popup -->
-
-      <section class="popup" id="add-popup">
-
         <div class="popup__content">
           <button
             class="button popup__close-btn"
             type="button"
             aria-label="close popup"
-            id="close-add">
-          </button>
+            id="close-edit"
+          ></button>
+          <h2 class="popup__header">Edit profile</h2>
+
+          <form class="form" name="edit-form">
+            <input
+              type="text"
+              id="edit-popup-name"
+              name="edit-popup-name"
+              placeholder="Name"
+              class="form__input"
+            />
+
+            <input
+              type="text"
+              name="edit-popup-title"
+              id="edit-popup-title"
+              placeholder="About Me"
+              class="form__input"
+            />
+
+            <button
+              type="submit"
+              class="button popup__submit-btn"
+              aria-label="save form"
+            >
+              Save
+            </button>
+          </form>
+        </div>
+      </section>
+
+      <!-- Add Card Popup -->
+
+      <section class="popup" id="add-popup">
+        <div class="popup__content">
+          <button
+            class="button popup__close-btn"
+            type="button"
+            aria-label="close popup"
+            id="close-add"
+          ></button>
 
           <h2 class="popup__header">New place</h2>
 
@@ -92,8 +91,8 @@
             </button>
           </form>
         </div>
-    </section>
-      
+      </section>
+
       <section class="profile">
         <img
           src="./images/traveler_avatar.jpg"
@@ -122,11 +121,11 @@
         ></button>
       </section>
 
-        <div class="card">
+      <!-- <div class="card">
           <img class="card__image-link">
           <h3 class="card__caption"></h3>
         </div>
-      </section> 
+      </section>  -->
 
       <section class="photo-grid">
         <div class="photo-grid__place">
@@ -145,6 +144,12 @@
               aria-label="like photo"
             ></button>
           </div>
+
+          <button
+            class="button cards__delete-icon"
+            aria-label="delete icon"
+            type="button"
+          ></button>
         </div>
 
         <div class="photo-grid__place">
@@ -163,6 +168,10 @@
               aria-label="like photo"
             ></button>
           </div>
+          <button
+            class="button cards__delete-icon"
+            aria-label="delete icon"
+          ></button>
         </div>
 
         <div class="photo-grid__place">
@@ -181,6 +190,11 @@
               aria-label="like photo"
             ></button>
           </div>
+          <button
+            class="button cards__delete-icon"
+            aria-label="delete icon"
+            type="button"
+          ></button>
         </div>
 
         <div class="photo-grid__place">
@@ -192,13 +206,18 @@
 
           <div class="photo-grid__content">
             <h2 class="photo-grid__header">The Bean</h2>
-
             <button
               class="button photo-grid__like-icon"
               type="button"
               aria-label="like photo"
             ></button>
           </div>
+
+          <button
+            class="button cards__delete-icon"
+            aria-label="delete icon"
+            type="button"
+          ></button>
         </div>
 
         <div class="photo-grid__place">
@@ -210,13 +229,18 @@
 
           <div class="photo-grid__content">
             <h2 class="photo-grid__header">Golden Gate</h2>
-
             <button
               class="button photo-grid__like-icon"
               type="button"
               aria-label="like photo"
             ></button>
           </div>
+          dsgathss
+
+          <button
+            class="button cards__delete-icon"
+            aria-label="delete icon"
+          ></button>
         </div>
 
         <div class="photo-grid__place">
@@ -234,6 +258,10 @@
               aria-label="like photo"
             ></button>
           </div>
+          <button
+            class="button cards__delete-icon"
+            aria-label="delete icon"
+          ></button>
         </div>
       </section>
     </main>
