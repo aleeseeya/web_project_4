@@ -121,148 +121,9 @@
         ></button>
       </section>
 
-      <!-- <div class="card">
-          <img class="card__image-link">
-          <h3 class="card__caption"></h3>
-        </div>
-      </section>  -->
-
-      <section class="photo-grid">
-        <div class="photo-grid__place">
-          <img
-            src="./images/statueofliberty_photo-grid.jpg"
-            alt="Image of the Statue of Liberty"
-            class="photo-grid__image"
-          />
-
-          <div class="photo-grid__content">
-            <h2 class="photo-grid__header">Statue of Liberty</h2>
-
-            <button
-              class="button photo-grid__like-icon"
-              type="button"
-              aria-label="like photo"
-            ></button>
-          </div>
-
-          <button
-            class="button cards__delete-icon"
-            aria-label="delete icon"
-            type="button"
-          ></button>
-        </div>
-
-        <div class="photo-grid__place">
-          <img
-            src="./images/neworleans.jpg"
-            alt="Image of New Orleans"
-            class="photo-grid__image"
-          />
-
-          <div class="photo-grid__content">
-            <h2 class="photo-grid__header">Shotgun House</h2>
-
-            <button
-              class="button photo-grid__like-icon"
-              type="button"
-              aria-label="like photo"
-            ></button>
-          </div>
-          <button
-            class="button cards__delete-icon"
-            aria-label="delete icon"
-          ></button>
-        </div>
-
-        <div class="photo-grid__place">
-          <img
-            src="./images/mountrainier.jpg"
-            alt="Image of Mount Rainier"
-            class="photo-grid__image"
-          />
-
-          <div class="photo-grid__content">
-            <h2 class="photo-grid__header">Mount Rainier</h2>
-
-            <button
-              class="button photo-grid__like-icon"
-              type="button"
-              aria-label="like photo"
-            ></button>
-          </div>
-          <button
-            class="button cards__delete-icon"
-            aria-label="delete icon"
-            type="button"
-          ></button>
-        </div>
-
-        <div class="photo-grid__place">
-          <img
-            src="./images/chicagobean.jpg"
-            alt="Image of Chicago"
-            class="photo-grid__image"
-          />
-
-          <div class="photo-grid__content">
-            <h2 class="photo-grid__header">The Bean</h2>
-            <button
-              class="button photo-grid__like-icon"
-              type="button"
-              aria-label="like photo"
-            ></button>
-          </div>
-
-          <button
-            class="button cards__delete-icon"
-            aria-label="delete icon"
-            type="button"
-          ></button>
-        </div>
-
-        <div class="photo-grid__place">
-          <img
-            src="./images/golden-gate-bridge.jpg"
-            alt="Image of the Golden Gate Bridge"
-            class="photo-grid__image"
-          />
-
-          <div class="photo-grid__content">
-            <h2 class="photo-grid__header">Golden Gate</h2>
-            <button
-              class="button photo-grid__like-icon"
-              type="button"
-              aria-label="like photo"
-            ></button>
-          </div>
-          dsgathss
-
-          <button
-            class="button cards__delete-icon"
-            aria-label="delete icon"
-          ></button>
-        </div>
-
-        <div class="photo-grid__place">
-          <img
-            src="./images/lincolnmemorial.jpg"
-            alt="Image of the Lincoln Memorial"
-            class="photo-grid__image"
-          />
-
-          <div class="photo-grid__content">
-            <h2 class="photo-grid__header">Lincoln Memorial</h2>
-            <button
-              class="button photo-grid__like-icon"
-              type="button"
-              aria-label="like photo"
-            ></button>
-          </div>
-          <button
-            class="button cards__delete-icon"
-            aria-label="delete icon"
-          ></button>
-        </div>
+      <!-- Places -->
+      <section class="places">
+        <ul class="places__list"></ul>
       </section>
     </main>
 
@@ -270,6 +131,26 @@
       <p class="footer__content">&copy; 2021 Around The U.S.</p>
     </footer>
 
-    <script src="./script.js"></script>
+    <template id="cardTemplate">
+      <li class="card">
+        <button
+          class="button card__delete-icon"
+          type="button"
+          aria-label="delete icon"
+        ></button>
+        <img class="card__image" />
+        <div class="card__content">
+          <h2 class="card__title"></h2>
+          <button
+            class="button card__like-icon"
+            type="button"
+            aria-label="like photo"
+          ></button>
+        </div>
+      </li>
+    </template>
+
+    <script src="./scripts/data.js"></script>
+    <script src="./scripts/index.js"></script>
   </body>
 </html>

@@ -1,7 +1,7 @@
-.photo-grid {
-  max-width: 880px;
+.places__list {
   display: grid;
-  margin: 50px auto 67px auto;
+  list-style-type: none;
+  margin: 0 auto;
   padding: 0;
   grid-template-columns: repeat(3, 282px);
   grid-template-rows: repeat(2, 361px);
@@ -9,11 +9,10 @@
 }
 
 @media (min-width: 320px) and (max-width: 1279px) {
-  .photo-grid {
+  .places__list {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     max-width: 282px;
-    margin: 36px auto 50px auto;
   }
 }

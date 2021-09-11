@@ -1,8 +1,9 @@
-.photo-grid__place {
+.card {
   margin: 0;
   padding: 0;
   background-color: #fff;
   border-radius: 10px;
   position: relative;
   max-height: 361px;
+  list-style-type: none;
 }
