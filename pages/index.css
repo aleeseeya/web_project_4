@@ -34,17 +34,20 @@
 @import url(../blocks/card/__content/card__content.css);
 @import url(../blocks/card/__image/card__image.css);
 @import url(../blocks/card/__title/card__title.css);
-@import url(../blocks/card/__caption/card__caption.css);
 @import url(../blocks/card/__like-icon/card__like-icon.css);
 @import url(../blocks/card/__like-icon/_active/card__like-icon_active.css);
 @import url(../blocks/card/__delete-icon/card__delete-icon.css);
+
 /* Popup */
 @import url(../blocks/popup/popup.css);
 @import url(../blocks/popup/_opened/popup_opened.css);
+@import url(../blocks/popup/__caption/popup__caption.css);
 @import url(../blocks/popup/__close-btn/popup__close-btn.css);
 @import url(../blocks/popup/__content/popup__content.css);
 @import url(../blocks/popup/__header/popup__header.css);
 @import url(../blocks/popup/__submit-btn/popup__submit-btn.css);
+@import url(../blocks/popup/__image/popup__image.css);
+@import url(../blocks/popup/__preview/popup__preview.css);
 
 /* Form */
 @import url(../blocks/form/form.css);

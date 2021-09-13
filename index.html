@@ -24,19 +24,19 @@
           ></button>
           <h2 class="popup__header">Edit profile</h2>
 
-          <form class="form" name="edit-form">
+          <form class="form" name="edit-form" id="edit-profile-form">
             <input
               type="text"
-              id="edit-popup-name"
-              name="edit-popup-name"
+              id="edit-profile-name"
+              name="edit-profile-name"
               placeholder="Name"
               class="form__input"
             />
 
             <input
               type="text"
-              name="edit-popup-title"
-              id="edit-popup-title"
+              name="edit-profile-title"
+              id="edit-profile-title"
               placeholder="About Me"
               class="form__input"
             />
@@ -45,6 +45,7 @@
               type="submit"
               class="button popup__submit-btn"
               aria-label="save form"
+              id="edit-form-submit"
             >
               Save
             </button>
@@ -65,7 +66,7 @@
 
           <h2 class="popup__header">New place</h2>
 
-          <form class="form" name="add-card-form">
+          <form class="form" name="add-card-form" id="add-card-form">
             <input
               type="text"
               id="new-card-title"
@@ -86,10 +87,28 @@
               type="submit"
               class="button popup__submit-btn"
               aria-label="save form"
+              id="add-form-submit"
             >
               Create
             </button>
           </form>
+        </div>
+      </section>
+
+      <!-- Card Preview Popup -->
+
+      <section class="popup" id="card-preview-popup">
+        <div class="popup__preview">
+          <button
+            class="button popup__close-btn"
+            type="button"
+            aria-label="close popup"
+            id="close-card"
+          ></button>
+
+          <img class="popup__image" />
+
+          <h3 class="popup__caption"></h3>
         </div>
       </section>
 
@@ -116,7 +135,7 @@
 
         <button
           class="button profile__add-button"
-          type="button"
+          type="submit"
           aria-label="add post"
         ></button>
       </section>

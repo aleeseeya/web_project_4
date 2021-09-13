@@ -1,4 +1,4 @@
-# Project 4: Around The U.S.
+# Project 4 & 5: Around The U.S.
 
 ### Overview
 
@@ -8,7 +8,7 @@
 
 **Description**
 
-This project showcases a profile with interactive posts highlighting different locations around the U.S. The profile info section including the individual's name and title can be edited. The heart icons on the photo cards can be toggled active.
+This project showcases a profile with interactive posts highlighting different locations around the U.S. The profile info section including the individual's name and title can be edited. Photo cards can be added, liked, and deleted.
 
 **Technologies & Techniques**
 
