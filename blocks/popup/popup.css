@@ -12,7 +12,7 @@
   z-index: 1000;
   background-color: #00000080;
   visibility: hidden;
-  transition: visibility 0s, opacity 0.5s ease-in-out pointer-events 0s;
+  transition: all 0.5s ease-in-out;
   opacity: 0;
   pointer-events: none;
 }

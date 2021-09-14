@@ -92,7 +92,7 @@ function createCard(card) {
 
 function renderCard(card) {
   const cardEl = createCard(card);
-  placesList.append(cardEl);
+  placesList.prepend(cardEl);
 }
 
 initialCards.forEach((card) => {
@@ -105,8 +105,7 @@ function addFormSubmitHandler(evt) {
     title: cardTitleInput.value,
     image: cardLinkInput.value,
   };
-  const newCardEl = createCard(newCard);
-  placesList.prepend(newCardEl);
+  renderCard(newCard);
   closePopup(addPopup);
 }
 
